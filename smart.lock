@@ -6,7 +6,8 @@
         "git": "https://github.com/rcy/tempeh",
         "branch": "master"
       },
-      "bootstrap3-less": {}
+      "bootstrap3-less": {},
+      "iron-transitioner": {}
     },
     "packages": {
       "tempeh": {
@@ -18,6 +19,11 @@
         "git": "https://github.com/eprochasson/bootstrap3-less",
         "tag": "v0.1.9",
         "commit": "5c812c4d7ce72917a065f0424c3cf54e5ff2d16a"
+      },
+      "iron-transitioner": {
+        "git": "https://github.com/percolatestudio/iron-transitioner.git",
+        "tag": "v0.1.0",
+        "commit": "4a5db7d9c7e212d8784b86aa833334e619bb4bd3"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
