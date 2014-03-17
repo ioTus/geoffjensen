@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "tempeh": {
+      "git": "https://github.com/rcy/tempeh"
+    },
+    "bootstrap3-less": {}
+  }
+}

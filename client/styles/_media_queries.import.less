@@ -1,0 +1,117 @@
+
+/* Large Screens */
+@media (min-width: 768px) {
+  .contents, .home {
+    header nav {
+      margin-right: 0px;
+
+      a {
+        .right;
+        .clear;
+      }
+    }
+  }
+  .home footer {
+    position: absolute;
+    bottom: 0px
+  }
+}
+
+/* Responsive: Up to Landscape tablet */
+/*-------------------------------------------------- */
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+/* Responsive: Up to portrait tablet */
+/*-------------------------------------------------- */
+
+@media (max-width: 767px) {
+  body {
+    background-image: none;
+  }
+
+  .contents, .home {
+    header, main {
+      margin-top: 0px;
+    }
+
+    header {
+      .relative;
+
+      h1 {
+        width: 100%;
+        background-position: 50%;
+      }
+      nav {
+        width: 100%;
+
+        select {
+          display: block;
+          margin: auto;
+        }
+        a {
+          display: none;
+//          .make-sm-column(3);
+//          clear:none;
+//          text-align: center;
+        }
+      }
+    }
+
+    nav a {
+      float:left;
+    }
+
+    main {
+      width: 100%;
+      position: relative;
+      clear: both;
+      text-align: center;
+      #orb {
+        float: none;
+      }
+    }
+  }
+
+
+}
+
+
+
+/* Responsive: Up to portrait tablet (not including) */
+/*-------------------------------------------------- */
+
+@media (max-width: 767px) {
+
+}
+
+
+
+
+/* =UP TO Landscape phone */
+/*-------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+/* smallest phone size */
+/*-------------------------------------------------------------- */
+
+@media (max-width: 360px) {
+  .contents, .home {
+    header h1 {
+      background-size: 100%;
+    }
+    header nav a {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+  }
+}

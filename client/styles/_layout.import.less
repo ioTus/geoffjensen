@@ -1,0 +1,109 @@
+body {
+  background-color: #eaeaea;
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  background-position: right -100px top;
+  background-attachment: fixed;
+}
+
+
+
+// PAGE CONTAINER
+.contents {
+  .row();
+  width:100%;
+
+
+
+
+// HEADER
+header {
+  .make-sm-column(4);
+  .make-sm-column-offset(1);
+  .fixed;
+  .user-select;
+  margin-top: 150px;
+
+  h1{
+    .right;}
+
+  // NAVIGATION
+  nav {
+    .row;
+    .clear;
+    .right;
+    font-size: 32px;
+
+    select {display: none;}
+    a {
+
+      &:hover {
+        .linkedin {
+          .transition;
+          background-image: url(/images/linkedin-hover.png);}
+        }
+    }
+
+    .linkedin {
+      .transition;
+      display: inline-block;
+      width:31px;
+      height:31px;
+      text-indent:150%;
+      margin-bottom:-4px;
+
+      background-image: url(/images/linkedin.png);
+      background-size: 31px 31px;
+      background-repeat: no-repeat;
+      white-space:nowrap;
+      overflow:hidden;}
+  }
+}
+
+
+
+// MAIN CONTENT
+main {
+  margin-top:150px;
+  .make-sm-column-offset(5);
+  .make-sm-column(6);
+  .left;
+  padding-left:30px;
+
+  #orb {
+    .outline;
+    .block;
+    width: 255px;
+    height: 340px;
+    margin:auto;
+    margin-top:100px;
+  }
+}
+
+
+
+// FOOTER
+footer {
+  width:99%;
+
+  .copyright {
+    .make-sm-column(7);
+    padding-right:0px;}
+  .copyright p {
+    .right;
+  }
+  .contact {
+    .make-sm-column(3);
+    text-align:center;}
+
+
+  // preloader for linked in hover
+  background-image: url(/images/linkedin-hover.png);
+  background-repeat: no-repeat;
+  white-space:nowrap;
+  background-position: right -100px top;
+  overflow:hidden;
+}
+
+
+}//END PAGE CONTAINER

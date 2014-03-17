@@ -1,0 +1,10 @@
+<template name="transitionerPanes">
+  <div class="transitioner-panes">
+    <div class="left-pane">
+      {{#if_equals "home" this}}{{> home }}{{/if_equals}}
+      {{#if_equals "clients" this}}{{> clients }}{{/if_equals}}
+      {{#if_equals "skills" this}}{{> skills }}{{/if_equals}}
+    </div>
+    <div class="right-pane"></div>
+  </div>
+</template>
